@@ -28,6 +28,7 @@ class Contenedor {
         }
         const id = getId()
         const addID = { id: id, ...producto }
+
         try {
             await fs.promises.writeFile(this.archivo, JSON.stringify(addID))
             setTimeout(() => {
@@ -38,7 +39,7 @@ class Contenedor {
             console.log(error);
         }
     }
-    // async getById(id,) {
+    // async getById(id) {
     //     const producto = contenido.find(id === contenido)
     //     return (
     //         producto
