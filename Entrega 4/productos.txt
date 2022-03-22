@@ -1,1 +1,1 @@
-[{id: 1, title: "Bálsamo curativo para perros", price: 35000, tumbnail: "img" }]
+[]

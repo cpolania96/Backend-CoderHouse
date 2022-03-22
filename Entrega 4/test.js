@@ -7,8 +7,13 @@ const Producto1 = new Contenedor('productos.txt')
 // Producto1.deleteAll()
 
 const main = async () => {
-    // await Producto1.deleteAll()
-    await Producto1.save({ title: "Bálsamo curativo para perros", price: 35000, tumbnail: "img" })
+    await Producto1.deleteAll()
+    // await Producto1.save({ title: "Limpiador otico", price: 40000, tumbnail: "img" })
+    // await Producto1.save({ title: "Bálsamo curativo", price: 80000, tumbnail: "img2" })
+    // await Producto1.getById(1)
+    // await Producto1.deleteById(1)
+    // await Producto1.getAll()
+
 
 }
 main()
